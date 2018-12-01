@@ -24,7 +24,8 @@ public class Colors extends AppCompatActivity {
         words.add(new Word("eight", "kawinta", R.drawable.color_mustard_yellow));
 
         ListView numbersListView = (ListView) findViewById(R.id.numbersListView);
-        WordAdapter adapter = new WordAdapter(this, words);
+
+        WordAdapter adapter = new WordAdapter(this, words, R.color.category_colors);
         numbersListView.setAdapter(adapter);
     }
 }
