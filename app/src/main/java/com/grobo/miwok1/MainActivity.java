@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        TextView numbers = (TextView) findViewById(R.id.numbers);
+        TextView numbers = (TextView) findViewById(R.id.numbers);           /* Number Text View */
         numbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView colors = (TextView) findViewById(R.id.colors);
+        TextView colors = (TextView) findViewById(R.id.colors);       /* Color Text View */
         colors.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
